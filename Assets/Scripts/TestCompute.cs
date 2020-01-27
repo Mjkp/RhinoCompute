@@ -173,7 +173,7 @@ public class TestCompute : MonoBehaviour
         {
             if(model != null)
             {
-                var path = Application.dataPath + "/../Outputs/model.3dm";
+                var path = Application.dataPath + "/../model.3dm";
                 model.Write(path, 5);
             }
         }
